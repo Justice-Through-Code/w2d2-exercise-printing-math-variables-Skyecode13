@@ -1,8 +1,8 @@
 
 def convert_100_to_celsius():
     
-    degrees_farenheit = 100
-    celsius_100 = (degrees_farenheit - 32) * 5/9
+    #degrees_farenheit = 100
+    celsius_100 = (100 - 32) * 5/9
     print(celsius_100)
     print(float) #The foat data typle has a decimal place
 
@@ -16,8 +16,8 @@ def convert_100_to_celsius():
 
 def convert_0_to_celsius():
 
-    degrees_farenheit = 0
-    celsius_0 = (degrees_farenheit - 32) * 5/9
+    #degrees_farenheit = 0
+    celsius_0 = (0 - 32) * 5/9
     print(celsius_0)
     
     # Convert a temperature of 0 degrees fahrenheit to celsius

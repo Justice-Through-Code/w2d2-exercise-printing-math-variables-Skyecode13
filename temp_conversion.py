@@ -1,10 +1,11 @@
 
 def convert_100_to_celsius():
-    
     #degrees_farenheit = 100
-    celsius_100 = (100 - 32) * 5/9
+    x = 100
+    celsius_100 = (x - 32) * 5/9
     print(celsius_100)
-    print(float) #The foat data typle has a decimal place
+    print('float') 
+    #The foat data typle has a decimal place
 
     # Convert a temperature of 100 degrees fahrenheit to celsius
     # Save this to a variable called celsius_100, and use print() to print out the value
@@ -15,9 +16,9 @@ def convert_100_to_celsius():
 #convert_100_to_celsius()
 
 def convert_0_to_celsius():
-
     #degrees_farenheit = 0
-    celsius_0 = (0 - 32) * 5/9
+    y = 0
+    celsius_0 = (y - 32) * 5/9
     print(celsius_0)
     
     # Convert a temperature of 0 degrees fahrenheit to celsius
@@ -26,10 +27,9 @@ def convert_0_to_celsius():
 #convert_0_to_celsius()
 
 def convert_34_2_to_celsius():
-
+    # Convert a temperature of 34.2 degrees fahrenheit to celsius
     print((34.2 - 32) * 5/9)
 
-    # Convert a temperature of 34.2 degrees fahrenheit to celsius
     # Do this one all in one print statement without saving any variables
     
 #convert_34_2_to_celsius()
@@ -38,6 +38,7 @@ def convert_34_2_to_celsius():
 
 def convert_5_to_fahrenheit():
     # Convert a temperature of 5 degrees celsius to fahrenheit and print it out
+    
     print((5 * 9/5) + 32)
 
 #convert_5_to_fahrenheit()
